@@ -11,8 +11,7 @@ def test_cases():
     #添加测试用例
     #SpiritBoy
     test_suite.addTest(jhptest.TestTask("test_1"))
-
-
+    print("SpiritBoy's test cases is finished")
 
     return test_suite
 
