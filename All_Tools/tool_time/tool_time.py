@@ -27,6 +27,7 @@ def get_fun_running_time(flag:int):
     :return: 元组（被调函数返回值，被调函数执行时间）
     time.process_time()会把time.sleep()不计入等时间
     所以用time.perf_counter()
+    can be better: 区分user time 和 sys time
     '''
     def wapper(fun):
         def wapper_deeper(*args, **kw):
